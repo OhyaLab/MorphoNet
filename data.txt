@@ -1,0 +1,16 @@
+# Data folder
+
+MorphoNet requires the `data/` folder to run. The complete data folder is included in the downloadable MorphoNet package available from the GitHub Releases page.
+
+Required files include:
+
+- `GeneInfo_Both.csv`
+- `Network_Nodes_Both.csv`
+- `Network_Edges_Both.csv`
+- `ZValues_Both.csv`
+- `qValues_Both.csv`
+- `ParametersDescription.csv`
+- `Essential_CorMat.csv`
+- `NonEssential_CorMat.csv`
+
+When running MorphoNet locally, keep this `data/` folder in the same directory as `MorphoNet_App_offline.py` or `MorphoNet.exe`.
