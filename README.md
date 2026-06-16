@@ -4,6 +4,7 @@ MorphoNet is an interactive platform for exploring quantitative morphological ph
 Even though morphological data are available for 1,112 essential and 4,704 nonessential mutants in this database, the constructed networks include only a subset of these genes (513 essential and 2,911 nonessential), rather than the full datasets. This restriction arises from the requirement for detectable morphological defects and the availability of functional annotations. Networks only include mutants with significant morphological phenotypes and genes annotated with GO terms. Further details on network construction can be found in the referenced studies.
 
 # Running MorphoNet
+Download the Windows executable package from the [Releases]([../../releases](https://github.com/OhyaLab/MorphoNet/releases/tag/v1.0.0)) page.
 **For Windows users**, download and unzip the MorphoNet package, keep the `data/` and `assets/` folders in the same directory as `MorphoNet.exe`, and then run `MorphoNet.exe` to launch the app. The app will open automatically in a web browser; if it does not, copy the local URL shown in the terminal window into your browser.
 
 **For Mac users**, MorphoNet should be run from the Python script. First, install the required Python packages, including `streamlit`, `pandas`, `numpy`, `networkx`, and `matplotlib`. Then, in Terminal, navigate to the folder containing `MorphoNet_App_offline.py`, together with the `data/` and `assets/` folders. In the packaged version, this is the `_internal` folder under the MorphoNet directory. Run:
