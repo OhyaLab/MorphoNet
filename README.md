@@ -4,22 +4,20 @@ MorphoNet is an interactive platform for exploring quantitative morphological ph
 Even though morphological data are available for 1,112 essential and 4,704 nonessential mutants in this database, the constructed networks include only a subset of these genes (513 essential and 2,911 nonessential), rather than the full datasets. This restriction arises from the requirement for detectable morphological defects and the availability of functional annotations. Networks only include mutants with significant morphological phenotypes and genes annotated with GO terms. Further details on network construction can be found in the referenced studies.
 
 # Running MorphoNet
-MorphoNet can be run as a standalone executable on Windows or as a Streamlit app on macOS.
+**For Windows users**, download and unzip the MorphoNet package, keep the data/ and assets/ folders in the same directory as MorphoNet.exe, and then run MorphoNet.exe to launch the app. The app will open automatically in a web browser; if it does not, copy the local URL shown in the terminal window into your browser.
 
-For Windows users, download and unzip the MorphoNet package, keep the data/ and assets/ folders in the same directory as MorphoNet.exe, and then run MorphoNet.exe to launch the app. The app will open automatically in a web browser; if it does not, copy the local URL shown in the terminal window into your browser.
-
-For Mac users, MorphoNet should be run from the Python script. First, install the required Python packages, including streamlit, pandas, numpy, networkx, and matplotlib. Then open Terminal, navigate to the MorphoNet directory containing the app script and the data/ and assets/ folders, and run
+**For Mac users**, MorphoNet should be run from the Python script. First, install the required Python packages, including streamlit, pandas, numpy, networkx, and matplotlib. Then open Terminal, navigate to the MorphoNet directory containing the app script and the data/ and assets/ folders, and run
 ```bash
 streamlit run MorphoNet_App_offline.py
 ```
 The app will launch in the default browser.
 
 # References
-CalMorph
+**CalMorph**
 Ohya Y, Sese J, Yukawa M, Sano F, Nakatani Y, Saito TL, et al. High-dimensional and large-scale phenotyping of yeast mutants. PNAS. 2005;102(52):19015–20. DOI: https://doi.org/10.1073/pnas.0509436102
 
-Essential Genes Network
+**Essential Genes Network**
 Ohnuki S and Ohya Y (2018) High-dimensional single-cell phenotyping reveals extensive haploinsufficiency. PLOS Biology. DOI: https://doi.org/10.1371/journal.pbio.2005130
 
-NonEssential Genes Network
+**NonEssential Genes Network**
 Ghanegolmohammadi F, Ohnuki S, and Ohya Y (2022) Assignment of unimodal probability distribution models for quantitative morphological phenotyping. BMC Biology. DOI: https://doi.org/10.1186/s12915-022-01283-6
