@@ -13,11 +13,8 @@ streamlit run MorphoNet_App_offline.py
 The app will launch in the default browser.
 
 # References
-**CalMorph**
-Ohya Y, Sese J, Yukawa M, Sano F, Nakatani Y, Saito TL, et al. High-dimensional and large-scale phenotyping of yeast mutants. PNAS. 2005;102(52):19015–20. DOI: https://doi.org/10.1073/pnas.0509436102
+**CalMorph:** Ohya Y, Sese J, Yukawa M, Sano F, Nakatani Y, Saito TL, et al. (2005) High-dimensional and large-scale phenotyping of yeast mutants. PNAS. DOI: https://doi.org/10.1073/pnas.0509436102
 
-**Essential Genes Network**
-Ohnuki S and Ohya Y (2018) High-dimensional single-cell phenotyping reveals extensive haploinsufficiency. PLOS Biology. DOI: https://doi.org/10.1371/journal.pbio.2005130
+**Essential Genes Network:** Ohnuki S and Ohya Y (2018) High-dimensional single-cell phenotyping reveals extensive haploinsufficiency. PLOS Biology. DOI: https://doi.org/10.1371/journal.pbio.2005130
 
-**NonEssential Genes Network**
-Ghanegolmohammadi F, Ohnuki S, and Ohya Y (2022) Assignment of unimodal probability distribution models for quantitative morphological phenotyping. BMC Biology. DOI: https://doi.org/10.1186/s12915-022-01283-6
+**NonEssential Genes Network:** Ghanegolmohammadi F, Ohnuki S, and Ohya Y (2022) Assignment of unimodal probability distribution models for quantitative morphological phenotyping. BMC Biology. DOI: https://doi.org/10.1186/s12915-022-01283-6
