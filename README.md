@@ -10,6 +10,7 @@ Download the Windows executable package from the [Releases](https://github.com/O
 **For Mac users**, MorphoNet should be run from the Python script. First, install the required Python packages, including `streamlit`, `pandas`, `numpy`, `networkx`, and `matplotlib`. Then, in Terminal, navigate to the folder containing `MorphoNet_App_offline.py`, together with the `data/` and `assets/` folders. In the packaged version, this is the `_internal` folder under the MorphoNet directory. Run:
 
 ```bash
+pip install -r requirements.txt
 streamlit run MorphoNet_App_offline.py
 ```
 The app will launch in the default browser.
