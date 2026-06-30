@@ -8,7 +8,7 @@ MorphoNet was tested with Python 3.12.10. Exact package versions are provided in
 
 **For Windows users**, download and unzip the MorphoNet package, keep the `data/` and `assets/` folders in the same directory as `MorphoNet.exe`, and then run `MorphoNet.exe` to launch the app. The app will open automatically in a web browser; if it does not, copy the local URL shown in the terminal window into your browser.
 
-**For Mac users**, MorphoNet should be run from the Python (ver. 3.12.10) script. First, install the required Python packages, including `streamlit`, `pandas`, `numpy`, `networkx`, and `matplotlib`. Then, in Terminal, navigate to the folder containing `MorphoNet_App_offline.py`, together with the `data/` and `assets/` folders. In the packaged version, this is the `_internal` folder under the MorphoNet directory. Install required packages:
+**For Mac users**, MorphoNet should be run from the Python (ver. 3.12.10) script. First, install the required Python packages, including `streamlit (ver. 1.39.0)`, `pandas (ver. 2.2.3)`, `numpy (ver. 2.1.2)`, `networkx (ver. 3.4.1)`, `matplotlib (ver. 3.9.2)`, and `Pillow (ver. 10.4.0)`. Then, in Terminal, navigate to the folder containing `MorphoNet_App_offline.py`, together with the `data/` and `assets/` folders. In the packaged version, this is the `_internal` folder under the MorphoNet directory. Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
