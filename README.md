@@ -5,6 +5,7 @@ Even though morphological data are available for 1,112 essential and 4,704 nones
 
 # Running MorphoNet
 MorphoNet was tested with Python 3.12.10. Exact package versions are provided in `requirements.txt`.
+
 Download the Windows executable package from the [Releases](https://github.com/OhyaLab/MorphoNet/releases) page.
 **For Windows users**, download and unzip the MorphoNet package, keep the `data/` and `assets/` folders in the same directory as `MorphoNet.exe`, and then run `MorphoNet.exe` to launch the app. The app will open automatically in a web browser; if it does not, copy the local URL shown in the terminal window into your browser.
 
